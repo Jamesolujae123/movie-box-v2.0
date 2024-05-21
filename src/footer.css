@@ -30,6 +30,10 @@ row-gap: 20px;
     font-weight: bold;
 }
 
+.footer-a a:hover {
+color: green;
+}
+
 .footer-info {
     color: gray;
     font-weight: bold;
