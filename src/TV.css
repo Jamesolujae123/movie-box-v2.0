@@ -29,6 +29,9 @@ width: 250px;
     .Tv-cont {
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
 }
+
+    .tvcard {
+         padding-left: 40px;
+    }
 }
