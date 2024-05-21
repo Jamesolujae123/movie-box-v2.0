@@ -42,7 +42,6 @@ color: green;
 @media screen and (max-width: 600px) {
 .footer-a {
     display: flex;
-    flex-direction: column;
-    gap: 18px;
+    gap: 10px;
 }
 }
