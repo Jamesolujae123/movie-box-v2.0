@@ -38,3 +38,11 @@ color: green;
     color: gray;
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+.footer-a {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+}
