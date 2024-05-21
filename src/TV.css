@@ -1,0 +1,26 @@
+.Tv-cont {
+display: flex;
+gap: 55px;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+margin-bottom: 100px;
+overflow-y: hidden;
+padding-left: 75px;
+
+}
+
+.tvcard {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 450px;
+overflow-y: hidden;
+}
+
+.tvimg{
+    border-radius: 15px;
+    height: 250px;
+width: 250px;
+
+}

@@ -1,0 +1,43 @@
+.profilecard {
+    height: 300px;
+    width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.people-cont {
+    display: flex;
+    gap: 55px;
+justify-content: center;
+}
+
+.people {
+    height: max-content;
+    margin-bottom: 90px;
+} 
+
+.profileimg {
+    width: 250px ;
+    height: 310px;
+}
+
+.people h2 {
+    margin-bottom: 50px;
+}
+
+.people h4 {
+    font-size: 19px;
+}
+
+@media screen and (max-width: 600px) {
+   .people-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+   }
+   .people h2{
+    align-self: center;
+   }
+}

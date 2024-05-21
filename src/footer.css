@@ -1,0 +1,36 @@
+.footer-cont {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 20px;
+}
+
+.footer{
+    margin-block: 50px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-a {
+    display: flex;
+    gap: 18px;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.footer-a a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-info {
+    color: gray;
+    font-weight: bold;
+}

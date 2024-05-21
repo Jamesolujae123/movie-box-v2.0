@@ -1,0 +1,22 @@
+h2 {
+
+    
+    padding-left: 100px;
+}
+
+.featured-cont {padding-top: 30px;
+    margin-block: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .movie-cont{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+    }
+    .people h2{
+     align-self: center;
+    }
+ }
